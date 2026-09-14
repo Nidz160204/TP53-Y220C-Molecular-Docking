@@ -16,6 +16,16 @@ Among the three compounds, P83 (PhiKan083) showed the most negative predicted bi
 
 PK7088 and Rezatapopt showed slightly less negative predicted binding affinities.
 
+## Best Docking Poses
+
+The best-scoring docking poses obtained from AutoDock Vina were extracted for further visualization and interaction analysis.
+
+### Docking Pose Files
+
+- `P83_best_pose.pdb`
+- `PK7088_best_pose.pdb`
+- `Rezatapopt_best_pose.pdb`
+
 ## Interpretation
 
 The docking scores provide a computational estimate of the relative binding affinity of the compounds toward the TP53 Y220C mutant.
