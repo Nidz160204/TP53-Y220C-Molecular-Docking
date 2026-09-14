@@ -14,9 +14,11 @@ The ligand structures were prepared and converted into PDBQT format for use with
 
 ## Ligand Files
 
-- `P83_ligand.pdbqt`
-- `PK7088_ligand.pdbqt`
-- `Rezatapopt_ligand.pdbqt`
+The prepared/best-scoring ligand poses used for downstream docking analysis are provided in PDBQT format.
+
+- `P83_best_pose.pdbqt`
+- `PK7088_best_pose.pdbqt`
+- `Rezatapopt_best_pose.pdbqt`
 
 ## Software Used
 
