@@ -22,11 +22,20 @@ The analysis focused on:
 - PK7088
 - Rezatapopt (PC14586)
 
-## Visualization
+# PyMOL Interaction Analysis
 
-PyMOL was used to visualize the docked ligand poses and surrounding residues.
+## Overview
 
-The resulting interaction images are provided in this folder.
+The best-scoring docking poses were visualized and examined using PyMOL to investigate the predicted interactions between the ligands and the TP53 Y220C mutant.
+
+## Visualization Files
+
+- `final_complex.png` – Overall protein–ligand complex visualization
+- `final_binding_site.png` – Binding-site visualization
+- `final_binding_interactions.png` – Overall interaction analysis
+- `PK7088_final_interactions.png` – PK7088 interaction analysis
+- `Rezatapopt_final_interactions.png` – Rezatapopt interaction analysis
+
 
 ## Interpretation
 
