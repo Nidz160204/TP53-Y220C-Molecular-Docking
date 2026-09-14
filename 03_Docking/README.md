@@ -1,46 +1,29 @@
 # Molecular Docking
 
-## Docking Software
+## Overview
 
-Molecular docking was performed using AutoDock Vina 1.2.7.
+Molecular docking was performed to investigate the predicted binding of P83, PK7088 and Rezatapopt to the TP53 Y220C mutant.
 
-## Receptor
+Docking was performed using AutoDock Vina 1.2.7.
 
-**Target:** TP53 Y220C mutant  
-**PDB ID:** 2VUK
+## Docking System
 
-The prepared receptor structure was used as a rigid receptor during docking.
+- **Receptor:** TP53 Y220C mutant
+- **PDB ID:** 2VUK
+- **Ligands:** P83, PK7088, Rezatapopt
+- **Docking software:** AutoDock Vina 1.2.7
 
-## Ligands
+## Docking Files
 
-Three ligands were docked against the TP53 Y220C mutant:
+- `P83_vina.log` – AutoDock Vina docking output for P83
+- `PK7088_vina.log` – AutoDock Vina docking output for PK7088
+- `Rezatapopt_vina.log` – AutoDock Vina docking output for Rezatapopt
+- `vina_config.txt` – Docking configuration and search parameters
 
-- P83 (PhiKan083)
-- PK7088
-- Rezatapopt (PC14586)
+## Workflow
 
-## Docking Parameters
-
-| Parameter | Value |
-|---|---|
-| Docking software | AutoDock Vina 1.2.7 |
-| Receptor | 2VUK |
-| Grid center X | 124.684 Å |
-| Grid center Y | 105.122 Å |
-| Grid center Z | -43.122 Å |
-| Grid size | 16 × 16 × 16 Å |
-| Exhaustiveness | 16 |
-| Number of modes | 9 |
-
-## Docking Workflow
-
-TP53 Y220C receptor
-→ Ligand preparation
-→ Binding-site definition
-→ AutoDock Vina docking
-→ Binding-affinity comparison
-→ Interaction analysis using PyMOL
-
-## Output
-
-The docking output files contain the predicted binding poses and docking scores for each ligand.
+1. Prepared the TP53 Y220C receptor in PDBQT format.
+2. Prepared the ligand structures for docking.
+3. Performed molecular docking using AutoDock Vina.
+4. Selected the best-scoring docking poses for downstream analysis.
+5. Visualized the predicted binding interactions using PyMOL.
